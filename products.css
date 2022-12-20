@@ -1,17 +1,25 @@
-*{margin:0; padding:0;}
-html,  
-body {
+/* html{
   height: 100%;
   width: 100%;
+
+} */
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+
+.toyitem{
+    display: block;
+    width: 23%;
 }
-.nav{
-  text-align: right;
-  background-color:gold;
-  padding:20px;
-}
-/* Takes care of bar, so color size and where the words end up */
-  
-.nav-item{
-  display:inline;
-  padding: 15px;
-}
+
+.toyitem img{
+    height: 250px;
+    width: auto;
+    border-radius:25px;
+    padding: 8px;
+    
+  }
