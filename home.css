@@ -10,23 +10,13 @@ body {
   background-color:gold;
   padding:20px;
 }
-/* Takes care of bar, so color size and where the words end up */
+
   
 .nav-item{
   display:inline;
   padding: 15px;
 }
-/*
-.hero {
-  background-image: url(images/play.jpeg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
- 
-
-} */
+/* Nav bar end*/
 
 .opacity{
   background-color: rgba(0, 0, 0, 0.5);
@@ -44,4 +34,20 @@ h1{
 p {
   color: #ffeaa7;
   text-align: center;
+}
+
+button{
+  display: flex;
+  margin: auto;
+  margin-top: -300px;
+  padding: 20px;
+  border-radius: 5px;
+background-color: #ffeaa7;
+border: none;
+font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 0px 2px 2px #222f3e;
+  background-color: #00b894;
 }
