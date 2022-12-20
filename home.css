@@ -3,6 +3,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-image: url(images/play.jpeg);
 }
 .nav{
   text-align: right;
@@ -14,4 +15,33 @@ body {
 .nav-item{
   display:inline;
   padding: 15px;
+}
+/*
+.hero {
+  background-image: url(images/play.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+
+} */
+
+.opacity{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+} 
+
+h1{
+  color: #ffeaa7;
+  text-align: center;
+  padding-top: 350px;
+  
+
+}
+
+p {
+  color: #ffeaa7;
+  text-align: center;
 }
